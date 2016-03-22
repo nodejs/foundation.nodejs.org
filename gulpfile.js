@@ -51,4 +51,4 @@ gulp.task('watch', [
   'watch:lint'
 ]);
 
-gulp.task('default', ['watch', 'runKeystone']);
+gulp.task('default', ['stylus', 'watch', 'runKeystone']);
